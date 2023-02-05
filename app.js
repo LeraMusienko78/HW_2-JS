@@ -21,6 +21,8 @@
 //  if more than 1000 => output => i take a half of it
 //  if more than Not A Number => output => Something incorrect try again later.
 
+// * <1-2> *
+
 const userName = prompt ("Привет ! Как тебя зовут?");
 alert (userName);
 console.log ("[NAME]", userName);
@@ -37,6 +39,25 @@ const userYearOfBirth = prompt (`${userName} ${userSurname} скажи свой 
 alert (userYearOfBirth);
 console.log ("[YEAR-OF-BIRTH]" , userYearOfBirth);
 
-const age = confirm (`${userName} ${userSurname} тебе ${2023-userYearOfBirth} ?`);
-alert (age);
-console.log ("[AGE]" , age);
+const userAge =  (` ${2023-userYearOfBirth}`);
+console.log ("[AGE]" , userAge);
+
+const userData={
+    userName,
+    userSurname,
+    userAdress,
+    userYearOfBirth,
+    userAge
+}
+console.log(userData);
+
+const sentence =  (`Привет ${userName} ${userSurname} , ${userAge} лет , приятно познакомиться!`);
+alert (sentence);
+console.log (sentence);
+
+// * <3> *
+
+
+
+
+
