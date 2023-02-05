@@ -57,6 +57,34 @@ console.log (sentence);
 
 // * <3> *
 
+const start = confirm (`${userName}, ответь на несколько вопросов:`);
+if (start === true){
+    alert (`Поехали:`)
+}else{
+    alert (`Давай тогда позже...`)
+}
+
+const question = prompt (" Какая погода за окном : дождь , облачно или солнце ? ");
+
+if (question === "дождь"){
+    alert (`Тогда ${userName} пойдем в кино`);
+}
+else if (question === "облачно"){
+    alert (`Пошли ${userName} пошли гулять`);
+}
+else if (question === "солнце"){
+    alert (`Пошли ${userName} загорать`);
+}
+else{
+    alert (" Что случилось? Отвечай правильно!!!")
+}
+
+// * <4> *
+
+
+
+
+
 
 
 
