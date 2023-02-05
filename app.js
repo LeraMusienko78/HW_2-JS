@@ -81,6 +81,20 @@ else{
 
 // * <4> *
 
+const question2 = prompt (` ${userName} , у тебя есть деньги? Сколько ?`)
+
+if (question2 < 100){
+    alert(` Тебе добавить?`);
+}
+else if (question2 >= 100 && question2 <500){
+    alert (` Давай половину!!!`)
+}
+else if (question2 >= 500){
+    alert (` Оставь 500 , дашь мне половину , остальное отдай в приют для животных`);
+}
+else {
+    alert (` Иди учи цифры !`);
+}
 
 
 
